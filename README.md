@@ -62,7 +62,9 @@ It caches results which improves speed greatly, but the result ain't tailored to
 
 Only YOU know exactly how you would describe a piece of code to yourself
 
-But you must often translate it into "promptese" to expect an LLM to translate it into code
+But you must often translate your ideal description into "promptese" to expect an LLM to translate it into code
+
+For non-english speakers, I'd imagine this becomes an even bigger issue. So much for "natural language" programming
 
 With snippets/fzf/rg, there is no such translation necessary
 
