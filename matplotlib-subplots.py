@@ -20,3 +20,12 @@ axs[0, 0].plot(X, Y1) # Top-left
 axs[0, 1].plot(X, Y2) # Top-right
 axs[1, 0].plot(X, Y3) # Bottom-left
 axs[1, 1].plot(X, Y4) # Bottom-right
+
+# Shared X-axis (domain) between multiple graphs
+fig, (ax1, ax2) = plt.subplots(2, 1, sharex=True, figsize=(8, 6))
+
+# Shared Y-axis (range) between multiple graphs
+# Just use sharey instead of sharex
+
+# Titles for subplots
+axs[0][1].set_title("yeah")
