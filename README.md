@@ -57,15 +57,16 @@ Integrate it into your workflow. Put it on a hotkey. Have your IDE integrate it 
 
 Why compose a whole prompt then wait for inference when a few keystrokes will do?
 
-And I know that Google Search AI is pretty good for this use case, but it ain't tailored to you specifically
+And I know that Google Search AI is pretty good for this use case:
+It caches results which improves speed greatly, but the result ain't tailored to you specifically
 
 Only YOU know exactly how you would describe a piece of code to yourself
 
-But you must translate it into "promptese" to expect an LLM to translate it into code
+But you must often translate it into "promptese" to expect an LLM to translate it into code
 
 With snippets/fzf/rg, there is no such translation necessary
 
-And only YOU know the ideal code format YOU would want
+And only YOU know the ideal code format YOU would want (beyond what code formatters can do)
 (You could reformat AI code but that's less convenient than having exactly what you want in "one shot")
 
 And also you might want to avoid AI use for ethical reasons...
