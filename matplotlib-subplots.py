@@ -28,4 +28,10 @@ fig, (ax1, ax2) = plt.subplots(2, 1, sharex=True, figsize=(8, 6))
 # Just use sharey instead of sharex
 
 # Titles for subplots
-axs[0][1].set_title("yeah")
+axs[0, 0].set_title("low σ, low ℓ")
+axs[0, 1].set_title("low σ, high ℓ")
+axs[1, 0].set_title("low σ, low ℓ")
+axs[1, 1].set_title("high σ, low ℓ")
+
+# Vertical/Horizontal gap between subplots
+fig.subplots_adjust(hspace=0.1, vspace=0.2)
