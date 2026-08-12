@@ -51,8 +51,26 @@ Even if this is not exactly how an LLM works, this is often how we use it for pr
 
 I say we cut out the middleman when we can. Have a sort of caching layer between us and the LLM. There's code we've all written or searched for a dozen times before.
 
-Snippets and ripgrep, my friends... Snippets and ripgrep.
+Snippets and ripgrep, my friends... Snippets and ripgrep. Fuzzy find also.
 
 Integrate it into your workflow. Put it on a hotkey. Have your IDE integrate it into its own "snippets" system.
 
 Why compose a whole prompt then wait for inference when a few keystrokes will do?
+
+And I know that Google Search AI is pretty good for this use case, but it ain't tailored to you specifically
+
+Only YOU know exactly how you would describe a piece of code
+
+And only YOU know the ideal code format YOU would want
+(You could reformat AI code but that's less convenient than having exactly what you want in "one shot")
+
+And also you might want to avoid AI use for ethical reasons...
+
+# How to Organize
+
+Use keywords in the snippets themselves, so that when you ripgrep/fzf through them, it's easier to find what you need
+
+This may work better than having non-overlapping categories (directories) for narrowing down search
+
+Hey, maybe you can even get some kind of really fast custom LLM to search your snippets for you.
+But this would only make sense if it takes less time/cognitive load to prompt it than to do fzf/rg keyword search.
